@@ -17,7 +17,7 @@ client = AsyncOpenAI(
 )
 
 # Создаем бота и диспетчер
-bot = Bot(token="7909527139:AAHyfy21fMAY-qtYNiZ7E6FatXA4TXTELis")  # Замени на свой токен
+bot = Bot(token="YOUR_BOT_TOKEN")  # Замени на свой токен
 dp = Dispatcher()
 
 
@@ -101,4 +101,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
